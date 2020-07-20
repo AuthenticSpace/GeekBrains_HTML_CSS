@@ -1,0 +1,239 @@
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  border: 3px solid red;
+  box-sizing: border-box;
+  font-family: arial;
+  position: relative;
+}
+
+.page-header {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: #445161;
+  color: #fff;
+}
+
+.page-header:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.page-header-wrp {
+  width: 400px;
+  float: left;
+}
+
+.page-header-title {
+  margin: 0 0 20px 0;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 400;
+
+}
+
+.page-header-list {
+  padding: 0 0 0 30px;
+  margin: 0 0 0 0;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+.page-header-list-item {
+  position: relative;
+}
+
+.page-header-list-item:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 7px;
+  left: -30px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flat_tick_icon.svg/1200px-Flat_tick_icon.svg.png');
+  background-size: cover;
+}
+
+.page-header-img {
+  display: block;
+  width: 400px;
+  height: 200px;
+  background-color: #fff;
+  float: right;
+}
+
+
+
+.about {
+  color: black;
+}
+
+.main-header-about {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.main-header-about:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.page-header-about {
+  width: 400px;
+  float: left;
+}
+
+.page-header-about-title {
+  margin: 0 0 20px 0;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 400;
+
+}
+
+.about-text {
+  width: 600px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+.text-1,
+.text-2 {
+  position: relative;
+}
+
+.page-about-img {
+  display: block;
+  width: 380px;
+  height: 220px;
+  background-color: #445161;
+  float: right;
+}
+
+
+.dignity {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dignity-title {
+  width: 100%;
+  display: block;
+  font-size: 36px;
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+.dignity-item-wrp {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.dignity-item {
+  width: 100%;
+  margin: 0 0 30px 0;
+  padding: 0 0 0 30px;
+  box-sizing: border-box;
+}
+
+.dignity-item-title {
+  display: block;
+  position: relative;
+}
+
+.dignity-item-title::-webkit-details-marker {
+  display: none;
+}
+
+.dignity-item-title:before {
+  content: "+";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #445161;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  left: -30px;
+}
+
+.screenshots {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.screenshots-title {
+  width: 100%;
+  display: block;
+  color: black;
+  font-size: 36px;
+  margin: 0 0 30px 0;
+  text-align: center;
+
+}
+
+.screenshots-item-wrp {
+  width: 50%;
+  margin: 0 0 0 0;
+  box-sizing: border-box;
+}
+
+.screenshot-item {
+  width: 100%;
+  margin: 0 0 200px 0;
+  box-sizing: border-box;
+}
+
+.text-box {
+  width: 50%;
+  margin: 0 0 0 20px;
+  display: block;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+.item-header {
+  display: block;
+  color: black;
+  font-size: 24px;
+  margin: 0 0 0 0;
+}
+
+.item-text {
+  display: block;
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+  position: relative;
+}
+
+.screenshot {
+  width: 250px;
+  height: 150px;
+  background-color: #445161;
+  display: block;
+  position: relative;
+  float: left;
+}
